@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marco Moscarelli</title>
+
+  <style>
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      max-width: 980px;
+      margin: 60px auto;
+      padding: 0 20px;
+      line-height: 1.65;
+      color: #111;
+      background: #fff;
+    }
+
+    img{
+      border-radius: 14px;
+      margin-bottom: 16px;
+    }
+
+    h1{
+      margin: 0 0 6px 0;
+      font-size: 34px;
+      letter-spacing: -0.2px;
+    }
+
+    .subtitle{
+      color:#555;
+      margin: 0 0 26px 0;
+      font-size: 16px;
+    }
+
+    .nav{
+      margin: 18px 0 38px 0;
+      padding: 10px 0;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+    }
+
+    .nav a{
+      margin-right: 14px;
+      color:#111;
+      text-decoration:none;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+    }
+
+    .nav a:hover{
+      border-bottom: 1px solid #111;
+    }
+
+    p{ margin-top: 12px; }
+
+    a{
+      color:#111;
+      text-decoration:none;
+      border-bottom: 1px solid #ccc;
+    }
+
+    a:hover{ border-bottom: 1px solid #111; }
+
+    .two-col{
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 26px;
+      align-items: start;
+    }
+
+    @media (max-width: 720px){
+      .two-col{ grid-template-columns: 1fr; }
+      img{ width: 180px; }
+    }
+
+    .footer{
+      margin-top: 70px;
+      font-size: 14px;
+      color:#777;
+      border-top: 1px solid #eaeaea;
+      padding-top: 18px;
+    }
+
+    .iconlink{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+    }
+
+    .iconlink img{
+      width:18px;
+      height:18px;
+      border-radius:3px;
+      margin:0;
+    }
+
+    .iconlink .orcid{
+      border-radius:0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="two-col">
+    <div>
+      <img src="profile.jpg" alt="Marco Moscarelli" width="220">
+    </div>
+
+    <div>
+      <h1>Marco Moscarelli, MD, MD(Res), PhD</h1>
+      <p class="subtitle">
+        Cardiac Surgeon · Structural Heart Research · Biostatistics &amp; Interpretable AI in Medicine
+      </p>
+
+      <div class="nav">
+        <a href="biography.html">Biography</a>
+        <a href="work.html">Work with me</a>
+        <a href="research.html">Research</a>
+        <a href="publications/index.html">Publications</a>
+        <a href="book.html">Book</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <p>
+        Official institutional profile:
+        <a href="https://profiles.imperial.ac.uk/m.moscarelli" target="_blank" rel="noopener noreferrer">
+          Imperial College London
+        </a>
+      </p>
+
+      <p>
+        <a class="iconlink" href="https://orcid.org/0000-0002-8373-8486" target="_blank" rel="noopener noreferrer">
+          <img class="orcid" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID">
+          0000-0002-8373-8486
+        </a>
+      </p>
+
+      <p>
+        <a class="iconlink" href="https://www.researchgate.net/profile/Marco-Moscarelli" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111628.png" alt="ResearchGate">
+          ResearchGate
+        </a>
+      </p>
+
+      <p>
+        <a class="iconlink" href="https://www.linkedin.com/in/marco-moscarelli-8713537b/" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+          LinkedIn
+        </a>
+      </p>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2026 Marco Moscarelli
+  </div>
+
+</body>
+</html>
